@@ -5,7 +5,7 @@ namespace RenatoNeto\LaravelScaleDrone;
 use Illuminate\Contracts\Broadcasting\Broadcaster;
 use ScaleDrone\Client;
 
-class ScaleDroneBroadcaster
+class ScaleDroneBroadcaster implements Broadcaster
 {
 
     /**
