@@ -36,6 +36,6 @@ In your bootstrap/app.php register the ScaleDrone Service Provider:
 
 ```php
     ...
-    $app->register(RenatoNeto\LaravelScaleDrone\ScaleDroneBroadcastServiceProvider::class);
+    $app->register(RenatoNeto\LaravelScaleDrone\ScaleDroneBroadcastLumenServiceProvider::class);
     ...
 ```
