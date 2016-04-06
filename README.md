@@ -1,7 +1,7 @@
 # Laravel Broadcasting ScaleDrone Driver
 Laravel Broadcasting ScaleDrone Driver for Laravel 5 and Lumen
 
-### Usage
+## Usage
 
 In config/broadcasting.php set the default driver to 'scaledrone' and add configuration options like this:
 
