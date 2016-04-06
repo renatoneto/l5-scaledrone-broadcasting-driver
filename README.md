@@ -30,7 +30,7 @@ In your config/app.php add the ScaleDrone Service Provider to your providers:
 ]
 ```
 
-# Lumen
+### Lumen
 
 In your bootstrap/app.php register the ScaleDrone Service Provider:
 
