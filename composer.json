@@ -1,0 +1,20 @@
+{
+    "name": "renatoneto/l5-scaledrone-broadcasting-driver",
+    "version": "1.0.0",
+    "keywords": ["laravel", "lumen", "scaledrone", "push"],
+    "authors": [
+        {
+            "name": "Renato Neto",
+            "email": "skapemr@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Skape\\LaravelScaleDrone\\": "src/LaravelScaleDrone"
+        }
+    },
+    "require": {
+        "scaledrone/scaledrone": "*"
+    }
+}
