@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "Skape\\LaravelScaleDrone\\": "src/LaravelScaleDrone"
+          "RenatoNeto\\LaravelScaleDrone\\": "src/LaravelScaleDrone"
         }
     },
     "require": {

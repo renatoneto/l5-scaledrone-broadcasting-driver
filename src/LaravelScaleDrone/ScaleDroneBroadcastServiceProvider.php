@@ -10,7 +10,7 @@ class ScaleDroneBroadcastServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->app->make(Illuminate\Broadcasting\BroadcastManager::class)
+        $this->app->make(\Illuminate\Broadcasting\BroadcastManager::class)
             ->extend('scaledrone', function ($app, $config) {
 
             return new ScaleDroneBroadcaster(new Client([
